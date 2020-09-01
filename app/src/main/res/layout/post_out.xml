@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layoutDirection="rtl"
+        android:id="@+id/linear_o"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        >
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/mosque1"
+            android:layout_margin ="5dp"
+            android:id="@+id/image_o"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:layout_marginRight="4dp"
+            android:layout_toLeftOf="@id/image_o"
+            android:textSize="10sp"
+            android:text="مسجد گوهرشاد"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:id="@+id/text_name_o"
+            />
+    </LinearLayout>
+    <include layout="@layout/post"
+        android:layout_below="@id/linear_o"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/post"/>
+</RelativeLayout>

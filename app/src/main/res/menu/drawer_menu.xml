@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<group android:enabled="true">
+    <item
+        android:title="تغییر پروفایل"
+        android:id="@+id/menu_edit"
+        android:icon="@drawable/edit"
+        />
+    <item
+        android:title="رویداد های جدید"
+        android:id="@+id/menu_alert"
+        android:icon="@drawable/clock"
+        /><item
+    android:title="ورود به عنوان مسئول مجموعه"
+    android:id="@+id/menu_sign_in"
+    android:icon="@drawable/sign_in"
+    /><item
+    android:title="درباره ما"
+    android:id="@+id/menu_about_us"
+    android:icon="@drawable/about_us"
+    />
+</group>
+</menu>

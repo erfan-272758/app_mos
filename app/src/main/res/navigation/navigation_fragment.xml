@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/frag_edit_prof"
+    android:id="@+id/nav_frag">
+    <fragment
+        android:id="@+id/frag_edit_prof"
+        android:name="com.google.myapplication.fragments.drawer.FragmentEditProfPerson"
+        tools:layout="@layout/edit_prof"
+        />
+    <fragment
+        android:id="@+id/frag_alert"
+        android:name="com.google.myapplication.fragments.drawer.FragmentAlert"
+        tools:layout="@layout/recycler_view_layout"/>
+</navigation>

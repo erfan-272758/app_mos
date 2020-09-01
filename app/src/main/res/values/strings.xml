@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="address">آدرس: </string>
+    <string name="phone">شماره تماس: </string>
+    <string name="connection_way">راه های ارتباطی:</string>
+    <string name="prayer">وضعیت برگزاری نماز: </string>
+    <string name="prayer_before">نماز</string>
+    <string name="prayer_s">صبح ،</string>
+    <string name="prayer_z">ظهر و عصر ،</string>
+    <string name="prayer_m">مغرب و عشا ،</string>
+    <string name="prayer_after">برگزار می شود.</string>
+    <string name="library">تعداد ظرفیت خالی کتاب خانه: </string>
+    <string name="person">نفر</string>
+    <string name="emam_name">نام امام جماعت: </string>
+    <string name="children_m">زیر مجموعه های مسجد:</string>
+    <string name="madah">مداحان: </string>
+    <string name="roozeh">روضه خوانان: </string>
+    <string name="speaker">سخنرانان: </string>
+    <string name="children_h">زیر مجموعه های هیئت:</string>
+    <string name="boss_h">مسئول هیئت:</string>
+    <string name="boss_c">مسئول مجموعه:</string>
+    <string name="depend">وابسته به مجموعه ی: </string>
+    <string name="history">تاریخچه فعالیت ها: </string>
+    <string name="conditional">شرایط عضو شدن: </string>
+    <string name="class_c">کلاس</string>
+    <string name="double_dot">:</string>
+    <string name="manager">با مسئولیت:</string>
+    <string name="time">زمان برگزاری:</string>
+    <string name="follow_org_none">دنبال کردن</string>
+    <string name="follow_org_ok">دنبال می کنید</string>
+    <string name="follow_per_none">مطلع شدن از پیشنهادات</string>
+    <string name="follow_per_ok">از پیشنهادات مطلع می شوید</string>
+    <string name="connect_org">ارتباط با مسئول</string>
+    <string name="follow_num">دنبال کنندگان</string>
+    <string name="act_num">تعداد فعالیت ها</string>
+</resources>

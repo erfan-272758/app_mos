@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2B2828</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="Red">#F44336</color>
+    <color name="colorGray">#BEBEBE</color>
+    <color name="colorDotsOut">#DAD7D8D8</color>
+    <color name="colorBlackWhiteGray">#D7D8D8</color>
+    <color name="colorDotsIn">#03A9F4</color>
+    <color name="colorBlack">#171616</color>
+    <color name="colorBlackGray">#656363</color>
+    <color name="colorWhiteGray">#F8F7FBFB</color>
+    <color name="colorDarkRead">#E91E63</color>
+    <color name="colorRed">#F44336</color>
+    <color name="colorWhiteRed">#FF5722</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorDarkBlue">#3598F0</color>
+    <color name="colorBlue">#3CBFAF</color>
+    <color name="colorWhiteBlue">#00BCD4</color>
+    <color name="colorGreen">#43B51F</color>
+    <color name="colorWhiteGreen">#32C671</color>
+    <color name="colorLine">#E1DFDF</color>
+    <color name="cardColor">#D7F7FB</color>
+</resources>

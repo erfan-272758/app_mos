@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/linear"
+       android:orientation="horizontal">
+
+       <androidx.appcompat.widget.SearchView
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="5"
+           android:id="@+id/search"
+           />
+       <com.google.android.material.button.MaterialButton
+           android:layout_width="0dp"
+           android:layout_height="35dp"
+           android:layout_weight="2"
+           android:backgroundTint="@color/colorDarkBlue"
+           android:text="تنظیمات جستجو"
+           android:textSize="12sp"
+           android:id="@+id/btn_setting"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="5dp"
+           app:cornerRadius="12dp"
+           android:insetLeft="0dp"
+           android:insetBottom="0dp"
+           android:insetRight="0dp"
+           android:insetTop="0dp"
+           />
+   </LinearLayout>
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear"
+        android:id="@+id/appbar"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/colorWhite"
+        >
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.material.tabs.TabLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:tabMode="fixed"
+                app:tabGravity="fill"
+                android:layoutDirection="ltr"
+                android:id="@+id/tl"/>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appbar"
+        android:id="@+id/view_pager_1"
+        android:layoutDirection="rtl"
+        />
+</RelativeLayout>

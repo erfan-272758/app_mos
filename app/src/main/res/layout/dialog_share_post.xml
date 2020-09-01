@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layoutDirection="ltr">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_layout"
+        style="@style/TextInputStyle"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="توصیف شما از فعالیت"
+            android:gravity="start"
+            android:inputType="textMultiLine"
+            android:maxLines="3"
+            android:id="@+id/edit_des"
+            android:textColor="@color/colorBlack"
+            android:selectAllOnFocus="true"
+            android:textSize="13sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_plus"
+        app:icon="@drawable/plus"
+        app:iconSize="28dp"
+        app:iconGravity="textEnd"
+        app:iconTint="@android:color/transparent"
+        app:iconTintMode="add"
+        android:layout_gravity="right"
+        android:text="اضافه کردن به لیست پیشنهادات عمومی"
+        android:insetLeft="0dp"
+        android:insetBottom="0dp"
+        android:insetRight="0dp"
+        android:insetTop="0dp"
+        android:layout_marginTop="5dp"
+        style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ارسال برای شخص خاص"
+        android:textSize="13sp"
+        android:layout_margin="10dp"
+        android:layout_gravity="right"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorWhiteGray"
+        android:layout_marginTop="-5dp"
+        />
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search"
+        app:queryHint="جستجوی فرد جدید با شماره تلفن یا id"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/line2"
+        android:background="#F3EFEF"
+        />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/re_view"
+        android:layoutAnimation="@anim/recycler_anim"
+        />
+    <ProgressBar
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:visibility="gone"
+        android:id="@+id/pb_top"
+        android:layout_centerHorizontal="true"
+        android:indeterminateTint="@android:color/darker_gray"
+        android:background="@drawable/circle"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        />
+</RelativeLayout>
+
+</LinearLayout>
